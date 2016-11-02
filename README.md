@@ -1,3 +1,5 @@
+这个angular是在angular 1.4.2的基础上对关于日期时间做了汉化处理
+
 # packaged angular-zh
 
 This repo is for distribution on `npm` and `bower`. The source for this module is in the
