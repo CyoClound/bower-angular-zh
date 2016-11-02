@@ -11130,7 +11130,7 @@ function $IntervalProvider() {
 function $LocaleProvider() {
   this.$get = function() {
     return {
-      id: 'en-us',
+      id: 'zh-cn',
 
       NUMBER_FORMATS: {
         DECIMAL_SEP: '.',
@@ -11158,28 +11158,28 @@ function $LocaleProvider() {
             lgSize: 3
           }
         ],
-        CURRENCY_SYM: '$'
+        CURRENCY_SYM: '￥'
       },
 
       DATETIME_FORMATS: {
         MONTH:
-            'January,February,March,April,May,June,July,August,September,October,November,December'
+            '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月'
             .split(','),
-        SHORTMONTH:  'Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec'.split(','),
-        DAY: 'Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday'.split(','),
-        SHORTDAY: 'Sun,Mon,Tue,Wed,Thu,Fri,Sat'.split(','),
+        SHORTMONTH: '一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月'.split(','),
+        DAY: '周日,周一,周二,周三,周四,周五,周六'.split(','),
+        SHORTDAY: '周日,周一,周二,周三,周四,周五,周六'.split(','),
         AMPMS: ['AM','PM'],
-        medium: 'MMM d, y h:mm:ss a',
-        'short': 'M/d/yy h:mm a',
-        fullDate: 'EEEE, MMMM d, y',
-        longDate: 'MMMM d, y',
-        mediumDate: 'MMM d, y',
-        shortDate: 'M/d/yy',
+        medium: 'y MMM d h:mm:ss a',
+        short: 'yy/M/d/ h:mm a',
+        fullDate: 'EEEE, y, MMMM d,',
+        longDate: 'y MMMM d',
+        mediumDate: 'y MMM d',
+        shortDate: 'yy/M/d',
         mediumTime: 'h:mm:ss a',
         shortTime: 'h:mm a',
         ERANAMES: [
-          "Before Christ",
-          "Anno Domini"
+          "公元前",
+          "公元元年"
         ],
         ERAS: [
           "BC",
