@@ -1,4 +1,4 @@
-这个angular是在angular 1.4.2的基础上对关于日期时间做了汉化处理  源码引用：https://github.com/angular/bower-angular（V1.4.2）
+这个angular是在angular 1.4.2的基础上对关于日期时间做了汉化处理  V1.4.2源码引用：https://github.com/angular/bower-angular
 
 # packaged angular-zh
 
